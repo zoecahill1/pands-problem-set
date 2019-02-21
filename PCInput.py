@@ -1,12 +1,24 @@
+#  Zoe Cahill - Contains functions which handle user input
+# Adapted from Coder's Apprentence Appendix 4
+
+# Definies the function
 def getPosInt(x):
     while True:
         try:
-            num = int(input(x)) # testing to see if number is an int
-            if num <= 0: # testing for negatives and zero entries
+            # Testing to see if number is an int
+            num = int(input(x)) 
+            # Testing for negatives and zero entries
+            if num <= 0: 
+                # What is shown to user if they enter 0 or a negative value
                 print ("You can only enter positive numbers...Please try again")
+                # Returns control to beginning of while loop to check next input
                 continue
-            break
-        except ValueError: # will catch error if user inputs something that is not an int
+            # Terminates current loop and executes next statement once condition is met    
+            break 
+        # Will catch error if user inputs something that is not an int
+        except ValueError: 
             print("You can only enter integers...Please try again")
+            # Returns control to the brginning of while loop to check next input
             continue
+    # Returns the number if it passes above checks to main program
     return num

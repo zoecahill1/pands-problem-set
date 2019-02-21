@@ -1,12 +1,22 @@
-# Question 1
-from PCInput import getPosInt # Imports a function to handle errors from user input
+# Zoe Cahill -  Question 1 Solution
 
+# Imports a function from PCInput which was created to handle user input
+from PCInput import getPosInt 
+
+# Describes the program to the user
 print("This program will output the sum of all the numbers between 1 and whatever you enter into the next line!")
 
-num = getPosInt("Please enter a positive number: ") # calls function imported above
-ans = 0 # starts the count at 0
+# Calls the fuction imported above
+# This function will check that the number entered is a positive integer only
+num = getPosInt("Please enter a positive number: ")
 
-for i in range(1, num+1): # range function will loop from 1 to user inputed value
+# Initializes the count at 0
+ans = 0 
+
+# Uses for loop and range function to loop from 1 to user inputted value
+for i in range(1, num+1):
+    # Increases count by 1 
     ans = ans + i
 
+# Print out the sum of all the numbers
 print (ans)
