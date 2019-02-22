@@ -6,7 +6,7 @@ from PCInput import getPosInt
 # Describes the program to the user
 print("This program will output the sum of all the numbers between 1 and whatever you enter into the next line!")
 
-# Calls the fuction imported above
+# Calls the function imported above
 # This function will check that the number entered is a positive integer only
 num = getPosInt("Please enter a positive number: ")
 

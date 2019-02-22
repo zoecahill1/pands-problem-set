@@ -3,9 +3,9 @@
 # Imports a function from PCInput which was created to handle user input
 from PCInput import getPosInt 
 
-# Calls the fuction imported above
+# Calls the function imported above
 # This function will check that the number entered is a positive integer only
-num = getPosInt("Please enter a poisitve number: ")
+num = getPosInt("Please enter a positive number: ")
 
 # Check will run until number gets to 1
 while num!=1:
@@ -15,7 +15,7 @@ while num!=1:
     if num%2 == 0:
         # If this check returns true then program will divide num by 2
         num=num/2
-    # Otehrwise then number is not even so it must be odd
+    # Otherwise then number is not even so it must be odd
     else:
         # When number is odd we multiply by 3 and add 1
         num = (num*3)+1

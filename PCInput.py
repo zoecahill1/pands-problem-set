@@ -1,7 +1,7 @@
 #  Zoe Cahill - Contains functions which handle user input
-# Adapted from Coder's Apprentence Appendix 4
+# Adapted from Coder's Apprentice Appendix 4
 
-# Definies the function
+# Defines the function
 def getPosInt(x):
     while True:
         try:
@@ -18,7 +18,7 @@ def getPosInt(x):
         # Will catch error if user inputs something that is not an int
         except ValueError: 
             print("You can only enter integers...Please try again")
-            # Returns control to the brginning of while loop to check next input
+            # Returns control to the beginning of while loop to check next input
             continue
     # Returns the number if it passes above checks to main program
     return num
