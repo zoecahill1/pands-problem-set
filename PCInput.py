@@ -1,5 +1,5 @@
 #  Zoe Cahill - Contains functions which handle user input
-# Adapted from Coder's Apprentice Appendix 4
+# Adapted from Coder's Apprentice Appendix C
 
 # Defines the function
 def getPosInt(x):
@@ -22,3 +22,10 @@ def getPosInt(x):
             continue
     # Returns the number if it passes above checks to main program
     return num
+
+# Defines the function
+def getSplitString(x):
+    # This line gets the users input
+    line = input(x)
+    # This returns the string seperated by white spaces as a list ie "Hello world" becomes ["Hello", "world"]
+    return line.split()
