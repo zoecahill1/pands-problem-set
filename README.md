@@ -1,3 +1,5 @@
+![Python Banner](/images/python-banner.jpg)
+Format: ![Python]
 # Problem Set Solutions
 
 This repository contains my solutions to the Problem Set for the module Programming and Scripting at GMIT.
@@ -19,7 +21,7 @@ This repository contains my solutions to the Problem Set for the module Programm
 2. Run command line
 2. Run start.py 
 3. Select which solution you wish to run i.e. enter 1 to start solution 1
-4. Alternatively you can run each individual solution by entering its file name 
+4. Alternatively you can run each individual solution by entering python and then its file name 
 
 ## What each file contains
 
@@ -30,9 +32,15 @@ This repository contains my solutions to the Problem Set for the module Programm
 5. collatz.py contains my solution to problem 4 on the problem sheet. It will ask the user to input any positive integer and then output the successive values of the following calculation; at each step calculate the next value
 by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. The program will then end if the current value is one.
 6. primes.py contains my solution to problem 5 on the problem sheet. It will ask the user to input a positive integer and then tell the user whether or not the number is a prime.
-
+7. secondstring.py contains my solution to problem 6 on the problem sheet. It will ask a user to input a sentence and will output every second word
+8. squareroot.py contains my solution to problem 7 on the problem sheet. It asks the user to input a positive number and gives the user an approximation of the square root of that number
+9. date-time.py contains my solution to problem 8 on the problem sheet. It contains 2 functions one which decides on the suffix to put on the day part of the date and one which prints and formats the current date. It will output todays date in the format 
+![Code Example](/images/date-time-example.png)
+Format: ![Code Example Format]
+*note: changed the name specified in the problem sheet from "datetime.py" to "date-time.py" as program kept importing itself rather that the datetime functions needed*
 12. PCInput.py contains the functions used to handle user input. They are in a separate file for reusability
 
 ## References
-[The Coder's Apprentice](http://www.spronck.net/pythonbook/index.xhtml) - I used this book in some of my solutions as commented in the code.
-[Stack Overflow](https://stackoverflow.com) - I used Stack Overflow in solution 1, as commented in the code
+* [The Coder's Apprentice](http://www.spronck.net/pythonbook/index.xhtml) - I used this book in some of my solutions as commented in the code.
+* [Stack Overflow](https://stackoverflow.com) - I used Stack Overflow in solution 1 (sumupto.py), as commented in the code
+* [Rob Jwells](https://www.robjwells.com/2013/10/date-suffixes-in-python/) - I used this tutorial on date suffixes to fix issue with formatting suffixes of dates in question 8 as commented in code (date-time.py)
