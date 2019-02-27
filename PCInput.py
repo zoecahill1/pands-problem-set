@@ -48,3 +48,26 @@ def getFloat(x):
             continue
         # When checks are passed returns float to program
         return num
+
+# Defines the function - This function will try to open a file path that the user has inputted
+# If it cannot open it will show an error message to the user with direction on how to input file path
+def fileCheck(x):
+    # Will keep looping until we reach condition
+    # User will be asked to keep inputting file path until it can be opened
+    while True:
+        # This line gets the users input
+        filename = input (x)
+        # This will attempt to open the file in read only mode
+        try:
+            file1 = open (filename, "r")
+        # If error eg file path not found user will be shown a message with directions to fix
+        except OSError:
+            # Tells the user what filename it was trying to open
+            print ("Could not read file: ", filename)
+            # Gives the user some guidance on how to format file path
+            print ("Please enter in format filename.txt if file is in this folder")
+            print ("If file is elsewhere then specify file path for example if file is on desktop C:\\Users\\User\\Desktop\\filename.txt")
+            # Returns control to beginning of loop to check next input
+            continue
+        # Returns file path to main program if it passes checks
+        return file1
