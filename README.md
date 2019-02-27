@@ -1,5 +1,4 @@
 ![Python Banner](/images/python-banner.jpg)
-Format: ![Python]
 # Problem Set Solutions
 
 This repository contains my solutions to the Problem Set for the module Programming and Scripting at GMIT.
@@ -35,9 +34,10 @@ by taking the current value and, if it is even, divide it by two, but if it is o
 7. secondstring.py contains my solution to problem 6 on the problem sheet. It will ask a user to input a sentence and will output every second word
 8. squareroot.py contains my solution to problem 7 on the problem sheet. It asks the user to input a positive number and gives the user an approximation of the square root of that number
 9. date-time.py contains my solution to problem 8 on the problem sheet. It contains 2 functions one which decides on the suffix to put on the day part of the date and one which prints and formats the current date. It will output todays date in the format 
-![Code Example](/images/date-time-example.png)
-Format: ![Code Example Format]
+![Code Example](/images/date-time-example.PNG)
 *note: changed the name specified in the problem sheet from "datetime.py" to "date-time.py" as program kept importing itself rather that the datetime functions needed*
+10. second.py contains my solution for problem 9 on the problem sheet. It will read in a text file and output every second line
+11. plot.py contains my solution to problem 10 on the problem sheet. It will display a plot of the functions x, x^2 and 2^x in the range[0,4]
 12. PCInput.py contains the functions used to handle user input. They are in a separate file for reusability
 
 ## References
