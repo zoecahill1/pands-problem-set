@@ -1,9 +1,9 @@
 # Zoe Cahill - Question 4 Solution
 
-def collatz1():
-    # Imports a function from PCInput which was created to handle user input
-    from PCInput import getPosInt 
+# Imports a function from PCInput which was created to handle user input
+from PCInput import getPosInt 
 
+def collatz1():
     # Calls the function imported above
     # This function will check that the number entered is a positive integer only
     num = getPosInt("Please enter a positive number: ")
