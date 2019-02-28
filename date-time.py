@@ -9,14 +9,14 @@ import datetime
 # It will take the variable day. Adapted from https://www.robjwells.com/2013/10/date-suffixes-in-python/
 def daysuffix(day):
     # Defines all the days which will take the th suffix
-  if 3 < day < 21 or 23 < day < 31:
-    # If day matches any of these conditions then function will return th
-    return 'th'
+    if 3 < day < 21 or 23 < day < 31:
+        # If day matches any of these conditions then function will return th
+        return 'th'
     # Otherwise it has to be one of the other 3
-  else:
-      # Defines the conditions to return the different suffixes
-      # %10 reduces the testing to just 1 number for simplicity
-    return {1: 'st', 2: 'nd', 3: 'rd'}[day % 10]
+    else:
+        # Defines the conditions to return the different suffixes
+        # %10 reduces the testing to just 1 number for simplicity
+        return {1: 'st', 2: 'nd', 3: 'rd'}[day % 10]
 
 # This function will find the current date and time and format as per the problem sheet
 def currentdatetime():
