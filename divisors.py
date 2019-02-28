@@ -1,6 +1,6 @@
 # Zoe Cahill - Question 3 Solution
 
-def primenum():
+def divideby():
     # This print statement describes the program to the user
     print ("This program prints all numbers between  1,000 and 10,000 that are divisible by 6 but not by 12.")
     
@@ -12,4 +12,4 @@ def primenum():
             # If both of these statements are true then print the number
             print (i)
 
-primenum()
+divideby()
