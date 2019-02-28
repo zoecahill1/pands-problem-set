@@ -36,7 +36,7 @@ by taking the current value and, if it is even, divide it by two, but if it is o
 9. date-time.py contains my solution to problem 8 on the problem sheet. It contains 2 functions one which decides on the suffix to put on the day part of the date and one which prints and formats the current date. It will output todays date in the format   
 ![Code Example](/images/date-time-example.PNG)  
 *note: changed the name specified in the problem sheet from "datetime.py" to "date-time.py" as program kept importing itself rather that the datetime functions needed*
-10. second.py contains my solution for problem 9 on the problem sheet. It will read in a text file and output every second line
+10. second.py contains my solution for problem 9 on the problem sheet. It will read in a text file and output every second line. This program can read a file from your on machine if you input the proper file path. There is also a file called moby-dick.txt included here for testing this program simply enter moby-dick.txt when prompted.
 11. plot.py contains my solution to problem 10 on the problem sheet. It will display a plot of the functions x, x^2 and 2^x in the range[0,4]
 12. PCInput.py contains the functions used to handle user input. They are in a separate file for reusability
 
