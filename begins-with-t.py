@@ -1,9 +1,9 @@
 # Zoe Cahill - Question 2 Solution
 
-def beginsWithT():
-    # Need to import this as we will be using some functions within datetime for our program
-    import datetime
+# Need to import this as we will be using some functions within datetime for our program
+import datetime
 
+def beginsWithT():
     # Describes the program to the user
     print ("This program will check if today begins with a \"T\" or not")
 
