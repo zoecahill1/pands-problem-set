@@ -13,6 +13,8 @@ def second():
     for i in range (0, len(L), 2):
         # This will print every second item in the list as we have specified increments of 2 above
         print (L[i])
+    # Closes file when finished so no resources are taken up
+    file1.close()
 
 second()
 

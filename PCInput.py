@@ -58,8 +58,9 @@ def fileCheck(x):
         # This line gets the users input
         filename = input (x)
         # This will attempt to open the file in read only mode
+        # Also specified encoding to prevent error that was occuring
         try:
-            file1 = open (filename, "r")
+            file1 = open (filename, "r", encoding="utf8")
         # If error eg file path not found user will be shown a message with directions to fix
         except OSError:
             # Tells the user what filename it was trying to open
