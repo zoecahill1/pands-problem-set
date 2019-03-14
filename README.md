@@ -44,3 +44,4 @@ by taking the current value and, if it is even, divide it by two, but if it is o
 * [The Coder's Apprentice](http://www.spronck.net/pythonbook/index.xhtml) - I used this book in some of my solutions as commented in the code.
 * [Stack Overflow](https://stackoverflow.com) - I used Stack Overflow in solution 1 (sumupto.py), as commented in the code
 * [Rob Jwells](https://www.robjwells.com/2013/10/date-suffixes-in-python/) - I used this tutorial on date suffixes to fix issue with formatting suffixes of dates in question 8 as commented in code (date-time.py)
+* [MatplotLib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html) - Referred to throughout my solution in plot.py
