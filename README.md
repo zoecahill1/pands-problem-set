@@ -16,7 +16,7 @@ This repository contains my solutions to the Problem Set for the module Programm
 
 ## How to run the code
 
-1. Make sure you have python installed
+1. Make sure you have python v. 3.7 installed. Can be downloaded from the [anaconda website](https://www.anaconda.com/distribution/)
 2. Run command line
 2. Run start.py 
 3. Select which solution you wish to run i.e. enter 1 to start solution 1
