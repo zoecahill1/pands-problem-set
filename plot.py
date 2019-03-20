@@ -1,4 +1,4 @@
-# Zoe Cahill - Contains a function which will plot a function
+# Zoe Cahill - Contains a method which will plot a function
 # References https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
 
 def plotfunction():
